@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_sGwPgDTeEe6uocWLNfcjVw" name="mysql" id="_cZfFYDTeEe6uocWLNfcjVw" label="mysql" dataPackage="_YsWXYDUBEe6uocWLNfcjVw" ContextMode="true" ContextId="_XX5F4DUBEe6uocWLNfcjVw" contextName="Default" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://localhost:3306/world_bank_project?noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" dbVersionString="MYSQL_8" Port="context.mysql_Port" Username="context.mysql_Login" Password="context.mysql_Password" ServerName="context.mysql_Server" DatasourceName="" FileFieldName="" SID="context.mysql_Database" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="context.mysql_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_sGwPgTTeEe6uocWLNfcjVw" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_sHWFYDTeEe6uocWLNfcjVw" tag="package filter" value=""/>
+    <taggedValue xmi:id="_sHf2YDTeEe6uocWLNfcjVw" tag="Status" value=""/>
+    <taggedValue xmi:id="_sHf2YTTeEe6uocWLNfcjVw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_sHf2YjTeEe6uocWLNfcjVw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_sHf2YzTeEe6uocWLNfcjVw" tag="Description" value=""/>
+    <taggedValue xmi:id="_sHf2ZDTeEe6uocWLNfcjVw" tag="Author" value=""/>
+    <taggedValue xmi:id="_sHf2ZTTeEe6uocWLNfcjVw" tag="otherParameter"/>
+    <taggedValue xmi:id="_sH3p0DTeEe6uocWLNfcjVw" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_sH3p0TTeEe6uocWLNfcjVw" tag="DB ProductVersion" value="8.0.30"/>
+    <taggedValue xmi:id="_sH3p0jTeEe6uocWLNfcjVw" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_sGwPgjTeEe6uocWLNfcjVw" key="CONN_PARA_KEY_USERNAME" value="context.mysql_Login"/>
+    <parameters xmi:id="_OUM30DUBEe6uocWLNfcjVw" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_YsWXYDUBEe6uocWLNfcjVw" name="world_bank_project" dataManager="_sGwPgDTeEe6uocWLNfcjVw"/>
+</xmi:XMI>
